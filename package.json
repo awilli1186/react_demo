@@ -36,5 +36,8 @@
     "phantomjs": "^1.9.17",
     "react": "^0.13.3",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp-gh-pages": "^0.5.2"
   }
 }

@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var ghPages = require('gulp-gh-pages');
 var jscs = require('gulp-jscs');
 var sass = require('gulp-sass');
 var browserify = require('browserify');
@@ -24,6 +25,11 @@ gulp.task('babel', function () {
     .bundle()
     .pipe(source('bundle.js'))
     .pipe(gulp.dest('./dist/js'));
+});
+
+gulp.task('deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
 });
 
 gulp.task('sass', function () {

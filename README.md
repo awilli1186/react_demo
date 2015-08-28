@@ -1,6 +1,10 @@
 # React.js Demo
 
-- Demo instamgram clone created in class at The Iron Yard as an introduction to React.js. 
+- Demo instamgram clone created in class at The Iron Yard as an introduction to React.js.
+
+#Demo
+
+-http://awilli1186.github.io/react_demo/
 
 ## Installation
 
